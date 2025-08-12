@@ -173,6 +173,44 @@ nav .nav-btn {
 
 /* Main */
 
-.
+.service-page {
+  margin-top: 5em;
+}
 
+.service-page > h2 {
+  text-align: center;
+}
 
+.service {
+  display: flex;
+  gap: 2em;
+  margin-top: 4em;
+  justify-content: center;
+  align-items: center;
+}
+
+.serve1 {
+  background-color: rgb(233, 227, 227);
+  border-radius: 16px;
+  width: 22%;
+  height: 280px;
+  padding: 28px 25px;
+}
+
+.serve1 .icn {
+  font-size: 3em;
+  margin-bottom: 1.5em;
+}
+
+.serve1 .icn1 {
+  font-size: 3em;
+  margin-bottom: 1.5em;
+}
+
+.serve1 h2 {
+  margin-bottom: 1em;
+}
+
+.serve1 p {
+  width: 300px;
+}
