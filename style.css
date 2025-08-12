@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Alata";
+}
+
+/* head section */
+
+header {
+  height: 100vh;
+  background-image: url("./images/yellow.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-inline: 8em;
+  image-rendering: -webkit-optimize-contrast; /* Enhances sharpness */
+  image-rendering: crisp-edges; /* For pixel-art style sharpness */
+}
+
+nav {
+  padding-block: 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  font-family: "Alata";
+}
+
+nav > a.logo {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  gap: 4em;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li::after {
+  content: "";
+  background-color: yellow;
+  margin: auto;
+  display: block;
+  width: 0%;
+  height: 2px;
+  transition: 0.3s;
+}
+
+nav ul li:hover::after {
+  width: 100%;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+nav ul li a:hover {
+  color: yellow;
+}
+
+nav .nav-btn {
+  background-color: #fff;
+  color: #000;
+  padding: 10px 12px;
+  border-radius: 19px;
+  border: none;
+  font-family: "Alata";
+  cursor: pointer;
+}
+
+.head-text {
+  margin-top: 10em;
+}
+
+.head-text h3 {
+  background-color: rgb(202, 190, 190);
+  border-radius: 15px;
+  width: 300px;
+  padding: 5px 3px;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.head-text h1 {
+  color: #fff;
+  max-width: 700px;
+  font-weight: 800;
+  font-size: 4em;
+  margin-bottom: 24px;
+}
+
+.head-text p {
+  color: #fff;
+  font-family: "Alata";
+  max-width: 900px;
+  font-size: 22px;
+  margin-bottom: 24px;
+}
+
+.head-btn {
+  display: flex;
+  gap: 1em;
+  margin-bottom: 2em;
+}
+
+.btn1 {
+  background-color: yellow;
+  color: #000;
+  padding: 11px 12px;
+  border-radius: 15px;
+  border: none;
+  font-family: "Alata";
+  cursor: pointer;
+  font-size: 16px;
+}
+.btn2 {
+  background-color: transparent;
+  color: #fff;
+  padding: 11px 12px;
+  border-radius: 15px;
+  border: none;
+  font-family: "Alata";
+  cursor: pointer;
+  font-size: 20px;
+}
+.btn2:hover {
+  background-color: yellow;
+  color: #000;
+}
+
+.client {
+  display: flex;
+}
+
+.fa-circle-play {
+  font-size: 28px;
+  margin-right: 10px;
+}
+
+.head-icon .fa-star {
+  color: yellow;
+}
+
+.head-icon h5 {
+  margin-top: 2px;
+  color: white;
+}
+
+.head-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.head-img img {
+  width: 40px;
+  height: auto;
+  border-radius: 100%;
+}
+
+/* Main */
+
+.
+
+
