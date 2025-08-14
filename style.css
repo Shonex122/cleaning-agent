@@ -8,6 +8,7 @@
 
 body {
   font-family: "Alata";
+  /* overflow: hidden; */
 }
 
 /* head section */
@@ -174,7 +175,7 @@ nav .nav-btn {
 /* Main */
 
 .service-page {
-  margin-top: 5em;
+  margin-block: 8em;
 }
 
 .service-page > h2 {
@@ -213,4 +214,40 @@ nav .nav-btn {
 
 .serve1 p {
   width: 300px;
+}
+
+/* Service Section */
+.service {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 1em;
+  margin-inline: 2em;
+}
+
+.service-section {
+  margin-bottom: 70px;
+}
+
+.serve-img1 {
+  background-image: url("./images/Cleanserve.webp");
+  width: 50%;
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+.sub-service {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  height: 80vh;
+}
+.serve-img2 {
+  background-image: url("./images/surface.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  border-radius: 10px;
 }
