@@ -305,3 +305,89 @@ nav .nav-btn {
   display: flex;
   align-items: end;
 }
+
+/* proffessional Team section */
+
+.prof {
+  margin-top: 6em;
+  margin-inline: 1em;
+  height: 50vh;
+  margin-block: 10em;
+}
+
+.prof > h2 {
+  text-align: center;
+  margin-bottom: 3em;
+  letter-spacing: 5px;
+}
+
+.proffesional {
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+.prof1 {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 40%,
+      rgba(0, 0, 0, 0.7) 100%
+    ),
+    url("./images/team1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 33.33%;
+  height: 500px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.prof2 {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 40%,
+      rgba(0, 0, 0, 0.7) 100%
+    ),
+    url("./images/team2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 33.33%;
+  height: 500px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.prof3 {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 40%,
+      rgba(0, 0, 0, 0.7) 100%
+    ),
+    url("./images/team33.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 33.33%;
+  height: 500px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.prof-text {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.prof-text {
+  font-size: 20px;
+}
