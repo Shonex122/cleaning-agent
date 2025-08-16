@@ -309,9 +309,7 @@ nav .nav-btn {
 /* proffessional Team section */
 
 .prof {
-  margin-top: 6em;
   margin-inline: 1em;
-  height: 50vh;
   margin-block: 10em;
 }
 
@@ -390,4 +388,119 @@ nav .nav-btn {
 
 .prof-text {
   font-size: 20px;
+}
+
+/* CTA */
+article {
+  margin-inline: 1em;
+  margin-top: 50px;
+}
+
+.CTA-page {
+  display: flex;
+  gap: 2em;
+  /* width: 100% */
+}
+
+.CTA-quote {
+  background-color: rgb(233, 227, 227);
+  border-radius: 16px;
+  width: 50%;
+  height: 600px;
+  padding: 28px 25px;
+}
+
+.CTA-img {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 40%,
+      rgba(0, 0, 0, 0.7) 100%
+    ),
+    url("./images/bckimage.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  border-radius: 10px;
+  height: auto;
+  display: flex;
+  align-items: end;
+  object-fit: cover;
+  height: 600px;
+}
+.CTA-img-text {
+  color: #fff;
+  padding: 30px;
+}
+
+.spark-text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24.4em;
+}
+
+.spark {
+  width: 30px;
+}
+
+.spark-div {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.spark-div p {
+  font-size: 25px;
+}
+
+.quote-btn {
+  background-color: #fff;
+  color: #000;
+  padding: 10px 12px;
+  border-radius: 19px;
+  border: none;
+  font-family: "Alata";
+  cursor: pointer;
+  align-self: flex-start;
+  width: 200px;
+  margin-top: 10px;
+}
+
+/* client review */
+.client {
+  margin-inline: 1em;
+  margin-top: 50px;
+}
+.client-rev {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 4em;
+  gap: 2em;
+  width: 100%;
+}
+
+.client1 {
+  padding-inline: 2em;
+  padding-top: 2em;
+  background-color: rgb(233, 227, 227);
+  border-radius: 16px;
+  height: 350px;
+  text-align: center;
+  width: 33.33%;
+}
+
+.client1 img {
+  height: 70px;
+  border-radius: 100%;
+}
+
+.client1 h2 {
+  margin-top: 2em;
+}
+
+.client1 p {
+  max-width: 500px;
+  font-size: 20px;
+  margin-top: 15px;
 }
