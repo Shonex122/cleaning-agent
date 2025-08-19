@@ -467,40 +467,125 @@ article {
 }
 
 /* client review */
-.client {
-  margin-inline: 1em;
-  margin-top: 50px;
+
+#client {
+  text-align: center;
+  padding-block: 10em;
 }
+#client > h2 {
+  text-align: center;
+  margin-bottom: 3em;
+  letter-spacing: 5px;
+}
+
 .client-rev {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 4em;
+  padding-inline: 14em;
+  padding-top: 1em;
   gap: 2em;
-  width: 100%;
 }
 
 .client1 {
-  padding-inline: 2em;
-  padding-top: 2em;
-  background-color: rgb(233, 227, 227);
-  border-radius: 16px;
-  height: 350px;
   text-align: center;
+  padding-top: 2em;
   width: 33.33%;
+  border-radius: 10px;
+  /* background-color: rgb(233, 227, 227); */
+  padding: 20px;
 }
 
 .client1 img {
-  height: 70px;
-  border-radius: 100%;
+  height: 60px;
+  border-radius: 60%;
 }
 
 .client1 h2 {
-  margin-top: 2em;
+  margin-top: 1em;
 }
 
 .client1 p {
-  max-width: 500px;
   font-size: 20px;
+  margin-top: 13px;
+}
+
+/* footer */
+footer {
+  padding-inline: 10em;
+  height: 30vh;
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  padding-block: 3em;
+}
+
+.footer-lists {
+  display: flex;
+  gap: 9em;
+}
+
+.sub-footer a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+
+.sub-footer1 a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+
+.newletter {
+  position: relative;
+}
+
+.newletter h2 {
+  color: #fff;
+  padding-bottom: 10px;
+}
+
+.newletter input {
+  height: 3.2rem;
+  width: 100%;
+  padding: 1em;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid transparent;
+}
+
+.new-btn {
+  position: absolute;
+  right: 3px;
+  top: 26%;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+
+.socials {
   margin-top: 15px;
+  display: flex;
+  gap: 1em;
+}
+
+.socials h4 {
+  color: #fff;
+}
+
+.socials ul {
+  display: flex;
+  list-style: none;
+  gap: 1em;
+}
+
+.socials .fa-brands {
+  color: white;
+  font-size: 25px;
 }
